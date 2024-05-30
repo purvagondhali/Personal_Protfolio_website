@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    background-color: #21113a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px;
+    margin-top: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    font-size: 30px;
+    margin-right: 300px;
+}
+.navbar .logo .logo-color{
+    color: #FFBD49;
+    font-weight: 400;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links li {
+    margin-left: 40px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #FFBD49;
+    border-radius: 5px;
+}
+.home-page{
+    display: flex;
+    flex-direction: row;
+}
+.left-section{
+    width: auto;
+    margin-top: 130px;
+    margin-left: 30px;
+    align-items: center;
+    
+}
+.name{
+    font-size: 35px;
+    margin: 0;
+}
+.name1{
+    font-size: 51px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #FFBD49;
+}
+.name2{
+    font-size: 50px;
+}
+.download-btn{
+    background-color: #f7d55a;
+    color: #000000;
+    font-size: 17px;
+    height: 50px;
+    width: 28%;
+    margin-top: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.1s ease, transform 0.6s ease;
+}
+.download-btn:hover {
+    background-color: #FFBD49;
+    transform: translateY(-2px);
+}
+.img{
+    margin-top: 45px;
+}
+.about{
+    background-color: #7C6391;
+    height: 608px;
+    padding: 15px 30px 0 30px;
+}
+.about-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    color: #FFBD49;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 55px;
+    font-weight: bold;
+}
+.about-info{
+    display: flex;
+    flex-direction: row;
+    
+}
+.info{
+    font-size: 18px;
+    width: 690px;
+    margin-left: 40px;
+    line-height: 1.9;
+}
+.right-about{
+    align-items: center;
+}
+.img1{
+    margin-top: -140px;
+    margin-right: 70px;
+}
+.project-box {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box {
+    background-color: #8d6da62d;
+    border-radius: 8px;
+    padding: 50px 20px 50px 20px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: color 0.3s, transform 0.3s;
+}
+.box i {
+    
+    font-size: 4em;
+    margin-bottom: 10px;
+    color: #FFBD49; 
+}
+.box i:hover {
+    color: #FF7F00;
+    transform: scale(1.1); 
+}
+.title-project {
+    font-size: 2em;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    color: #FFBD49;
+    font-size: 55px;
+    font-weight: bold;
+}
+.project-box{
+    margin-bottom: 10%;
+}
+.li{
+    line-height: 50px;
+    font-size: 19;
+}
+.box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffdfa9;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #7C6391;
+    height: 608px;
+    padding: 0 60px 50px 60px;
+}
+.title-skills{
+    font-size: 2em;
+    margin-left: 40%;
+    margin-bottom: 30px;
+    color: #FFBD49;
+    font-size: 55px;
+    font-weight: bold;
+}
+.skills-flex{
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background-color: #3f224f8d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.foot-left, .foot-middle, .foot-right {
+    flex: 1;
+    padding: 10px;
+}
+
+.foot-left p, .foot-right p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.foot-middle {
+    text-align: center;
+}
+
+.foot-middle i {
+    margin: 0 10px;
+    font-size: 30px;
+    transition: color 0.0s;
+}
+
+.foot-middle i:hover {
+    color: #FFBD49;
+}
+.foot-right-span{
+    color: #FFBD49;
+}
